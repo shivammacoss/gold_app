@@ -1,0 +1,32 @@
+Django>=5.1,<5.2
+djangorestframework>=3.15,<4.0
+djangorestframework-simplejwt>=5.3,<6.0
+django-cors-headers>=4.4,<5.0
+django-filter>=24.3,<25.0
+django-environ>=0.11,<1.0
+django-auditlog>=3.0,<4.0
+django-extensions>=3.2,<4.0
+
+# Database
+psycopg2-binary>=2.9,<3.0
+
+# Celery
+celery>=5.4,<6.0
+django-celery-beat>=2.6,<3.0
+django-celery-results>=2.5,<3.0
+redis>=5.0,<6.0
+
+# Blockchain
+tronpy>=0.4,<1.0
+web3>=6.20,<7.0
+
+# Utilities
+Pillow>=10.4,<11.0
+gunicorn>=22.0,<23.0
+whitenoise>=6.7,<7.0
+drf-spectacular>=0.27,<1.0
+
+# Production
+sentry-sdk>=2.13,<3.0
+django-storages>=1.14,<2.0
+boto3>=1.35,<2.0
